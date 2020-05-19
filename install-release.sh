@@ -180,7 +180,6 @@ getPMT(){
     fi
     return 0
 }
-
 extract(){
     colorEcho ${BLUE}"Extracting V2Ray package to /tmp/v2ray."
     mkdir -p /tmp/v2ray
